@@ -15,6 +15,13 @@ router.get('/', async (req, res) => {
   }
 });
 
+// DISPLAY ADD GIG FORM
+router.get('/add', (req, res) => {
+  res.render('add');
+});
+
 // POST NEW GIG
+
+router.post('/add', (req, res) => {});
 
 module.exports = router;
